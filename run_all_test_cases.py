@@ -37,7 +37,7 @@ def send_mail(path):
     smtp.send_message(mime, from_addr='bwftest126@126.com', to_addrs='ztmcai@163.com',)
     #5.退出
     smtp.quit()
-
+    print('邮件发送成功')
 
 
 if __name__ == '__main__':
